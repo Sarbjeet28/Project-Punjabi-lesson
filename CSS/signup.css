@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    margin: auto;
+    background-color: lightcyan ;
+    border-bottom: 1px solid lightgrey; 
+}
+.div1{
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+    
+}
+.div2{
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+    text-align: right;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
+ul li{ 
+    display: inline;   
+}
+a{
+    color: rgb(118, 114, 114);
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+.section1{
+    width: 100%;
+    margin: auto;
+    background-color: lightcyan;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+.sect-80{
+    width: 80%;
+    margin: auto;
+}
+.p1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    line-height: 30px;
+}
+.sec-heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(22, 32, 57);
+    text-align: center;
+    padding: 20px;
+
+}
+.section2{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+   
+}
+.sec-80{
+    width:70%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 30px; 
+    padding: 40px;
+}
+.sec-d1{
+    width: 50%;
+    float: left;
+}
+.sec-d2{
+    width: 50%;
+    float: left;
+}
+.sec-heading{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(22, 32, 57);
+    margin-bottom: 0px;
+}
+.col1{
+    width: 80%;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.row1{
+    width: 100%;
+    display: flex;
+}
+.col2{
+    width: 90%;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.hh1{
+    background-color: rgb(19, 14, 47);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 10%;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+}
+@media screen and (min-width:1350px){
+    .nav{
+        width: 1170px;
+    }
+    .section1{
+        width: 1170px; 
+    }
+    .section2{
+        width: 1170px;
+    }
+
+}
