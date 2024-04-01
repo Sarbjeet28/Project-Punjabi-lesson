@@ -4,7 +4,7 @@ body{
 .nav{
     width: 100%;
     margin: auto;
-    background-color: lightcyan ;
+    background-color: rgb(254, 251, 251);
     border-bottom: 1px solid lightgrey; 
 }
 .div1{
@@ -35,8 +35,16 @@ a{
     padding: 20px;
 }
 .section2{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(244, 249, 244);
+    /* background-image: url("../images/bgimgse2.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.s-80{
     width: 80%;
-    margin: auto;  
+    margin: auto;
 }
 .div3{
     width: 60%;
